@@ -1,7 +1,7 @@
 ## Description
 In this repository you will find Python wheels for the Raspberry Pi 4.
 If you have a wish you can tell me as a pull request. I will always upload a wheel of the latest version in the future.
-I couldn't upload the whole wheels so it is divided into 3 sub-archives.
+I couldn't upload the whole wheels so it is divided into sub-archives.
 ## Build Pytorch from the source
 If you feel like you can build the wheel yourself with my step by step instructions.
 But this is not necessary because I uploaded the latest wheel here.
