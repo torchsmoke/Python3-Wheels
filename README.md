@@ -28,5 +28,5 @@ If you want to install the wheel, download the files.
 It is easiest if you have installed the file-roller package.
 Double-click on the file with the extension .001.
 Extract the only .whl file.
-Copy the path of the extracted file and enter ´sudo pip3 install [path]´ in the terminal and press Enter.
+Copy the path of the extracted file and enter `sudo pip3 install [path]` in the terminal and press Enter.
 Now it should be installed.
