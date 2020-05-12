@@ -22,3 +22,11 @@ This command takes a **few** hours.
  9. Look in the new subfolder "dist" for a file with the extension ".whl".
 Copy the path and run `pip3 install PATH`.
  10. You can import Pytorch with `import torch`.
+ 
+ ## Install the wheel
+If you want to install the wheel, download the files.
+It is easiest if you have installed the file-roller package.
+Double-click on the file with the extension .001.
+Extract the only .whl file.
+Copy the path of the extracted file and enter ´sudo pip3 install [path]´ in the terminal and press Enter.
+Now it should be installed.
