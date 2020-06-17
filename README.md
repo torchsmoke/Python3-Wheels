@@ -25,6 +25,8 @@ Copy the path and run `pip3 install PATH`.
  
  ## Install the wheel
 If you want to install the wheel, download the files.
+If the file extension .whl you can install it normal.
+Otherwise follow the instructions below.
 It is easiest if you have installed the file-roller package.
 Double-click on the file with the extension .001.
 Extract the only .whl file.
