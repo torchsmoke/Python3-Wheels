@@ -17,7 +17,7 @@ This command installs all dependencies of Pytorch.
 `export NO_QNNPACK=1`.
 This command sets the environment variables.
  8. Run `python3 setup.py sdist bdist_wheel`.
-This command takes a **few** hours. (On Raspberry Pi 4 4GB with 2294MHz
+This command takes a **few** hours. (On Raspberry Pi 4 4GB with 2294MHz it take round 3 hours)
  9. Look in the new subfolder "dist" for a file with the extension ".whl".
 Copy the path and run `pip3 install PATH`.
  10. You can import Pytorch with `import torch`.
