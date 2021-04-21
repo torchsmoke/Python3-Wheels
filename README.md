@@ -10,11 +10,7 @@ This command installs all dependencies of Pytorch.
  3. Change to the folder where you want to download Pytorch. (`cd PATH`)
  4. Run `git clone --recursive https://github.com/pytorch/pytorch`.
  6. Run `cd pytorch`.
- 7. Run `export NO_CUDA=1`
-`export NO_DISTRIBUTED=1`
-`export NO_MKLDNN=1`
-`export NO_NNPACK=1`
-`export NO_QNNPACK=1`.
+ 7. Run `export NO_CUDA=1;export NO_DISTRIBUTED=1;export NO_MKLDNN=1;export NO_NNPACK=1;export NO_QNNPACK=1`.
 This command sets the environment variables.
  8. Run `python3 setup.py sdist bdist_wheel`.
 This command takes a **few** hours. (On Raspberry Pi 4 4GB with 2294MHz it take round 3 hours)
