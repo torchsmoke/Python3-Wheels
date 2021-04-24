@@ -10,15 +10,15 @@ This command installs all dependencies of Pytorch.
  3. Change to the folder where you want to download Pytorch. (`cd PATH`)
  4. Run `git clone --recursive https://github.com/pytorch/pytorch`.
  6. Run `cd pytorch`.
- 7. Run `export NO_CUDA=1;export NO_DISTRIBUTED=1;export NO_MKLDNN=1;export NO_NNPACK=1;export NO_QNNPACK=1`.
+ 7. Run `export USE_CUDA=0;export USE_DISTRIBUTED=0;export USE_MKLDNN=0;export USE_QNNPACK=0;export USE_NNPACK=0;export USE_FFMPEG=1;export USE_OPENCV=1`.
+The last two exports can also be omitted when FFMPEG or OpenCV are not installed. If you want to change the maximum number of build processes, use `export MAX_JOBS=YOUR-NUMBER`.
 This command sets the environment variables.
  8. Run `python3 setup.py sdist bdist_wheel`.
 This command takes a **few** hours. (On Raspberry Pi 4 4GB with 2294MHz it take round 3 hours)
  9. Look in the new subfolder "dist" for a file with the extension ".whl".
 Copy the path and run `pip3 install PATH`.
  10. You can import Pytorch with `import torch`.
- 
- ## Install the wheel
+## Install the wheel
 If you want to install the wheel, download the files.
 If the file extension .whl you can install it normal.
 Otherwise follow the instructions below.
